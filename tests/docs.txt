@@ -1,0 +1,11 @@
+Naming convention: when_condition_expectedOutcome{
+    //given
+
+    //when
+
+    //then
+}
+
+
+Eg: when_AccumulatorValueIsSet_Expect_Accumulator //Get value of accumulator
+Eg: when_CalculatorIsNew_Expect_AccumulatorToBeZero //Get value of accumulator

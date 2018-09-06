@@ -1,0 +1,141 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+
+#calculator {
+    position: relative;
+    margin: 0 auto;
+    border: 8px outset #dcdcd0;;
+    padding: 0 0 0 0;
+    width: 320px;
+    height: 460px;
+    background-color: #d48685;
+}
+
+#stack {
+    position: absolute;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+    top: 30px;
+    left: 12px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+div.stackrow {
+    width: 291px;
+    height: 30px;
+    position: absolute;
+    border: 3px inset gray;
+    background-color: GhostWhite;
+    font-size: 22px;
+    font-family: monaco, sans-serif;
+}
+
+input.stackrow {
+    position: relative;
+    top: 2px;
+    padding: 0 0 0 0;
+    padding-right: 5px;
+    border: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: none;
+    text-align: right;
+    font-size: 100%;
+    width: 98%;
+}
+
+#keyboard {
+    position: absolute;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+    top: 212px;
+    left: 12px;
+}
+
+div.button {
+    width: 50px;
+    height: 30px;
+    background: #eae7d7;
+    color: white;
+    position: absolute;
+    border: 5px outset #eae7d7;
+}
+
+a.button {
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    color: Black;
+    line-height: 30px;
+    display: block;
+    width: 50px;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    font-weight: bold;
+    font-family: Arial,Verdana;
+}
+
+a:hover {
+    background-color: #e0ce6e;
+}
+
+.enter:hover {
+    width:110px;
+    background-color: #e0ce6e;
+}
